@@ -168,7 +168,7 @@ namespace pgplot {
 
     explicit device(const std::string& devname =
 		    std::getenv("PGPLOT_DEV") ? std::getenv("PGPLOT_DEV") : "?"
-		    ) throw(open_error) :
+		    ) :
       devname_(devname)
     {
       id_ = cpgopen(devname_.c_str());
