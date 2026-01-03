@@ -1,5 +1,5 @@
-CXXFLAGS = -Wall -W -pedantic --std=c++14
-LDFLAGS = -lcpgplot
+CXXFLAGS = -Wextra -pedantic --std=c++14
+LDFLAGS = -l:libcpgplot.so.0
 
 DEMOS = demo1 demo2
 
